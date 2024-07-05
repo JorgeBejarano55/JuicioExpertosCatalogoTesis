@@ -2,7 +2,7 @@
    <h3 class="title">Datos del Experto o Juez.</h3>
    <small class="text-body-secondary">Los atributos con * son obligatorios</small>
 
-   <form class="contact-form row" [formGroup]="basicDateForm" (ngSubmit)="onSubmit()">
+   <!-- <form class="contact-form row" [formGroup]="basicDateForm" (ngSubmit)="onSubmit()">
       <div class="form-field col-lg-6 ">
          <input id="email" class="input-text js-input" type="Email" required formControlName="email">
          <label class="label" for="email">Email. *</label>
@@ -30,6 +30,8 @@
       <div class="form-field col-lg-12">
          <input class="submit-btn" type="submit" value="Continuar" [disabled]="basicDateForm.invalid">
       </div>
-   </form>
+   </form> -->
+
+   <survey [model]="surveyModel"></survey>
 
 </section>
