@@ -1,37 +1,8 @@
 <section class="get-in-touch">
-   <h3 class="title">Datos del Experto o Juez.</h3>
-   <small class="text-body-secondary">Los atributos con * son obligatorios</small>
-
-   <!-- <form class="contact-form row" [formGroup]="basicDateForm" (ngSubmit)="onSubmit()">
-      <div class="form-field col-lg-6 ">
-         <input id="email" class="input-text js-input" type="Email" required formControlName="email">
-         <label class="label" for="email">Email. *</label>
-      </div>
-      <div class="form-field col-lg-6">
-         <input id="name" class="input-text js-input" type="text" required formControlName="name">
-         <label class="label" for="name">Nombres y Apellidos del Experto. *</label>
-      </div>
-      <div class="form-field col-lg-6 ">
-         <input id="email" class="input-text js-input" type="text" required formControlName="formacion">
-         <label class="label" for="email">Formación acádemica (Último titulo obtenido). *</label>
-      </div>
-      <div class="form-field col-lg-6 ">
-         <input id="email" class="input-text js-input" type="text" required formControlName="areaExperiencia">
-         <label class="label" for="email">Áreas de experiencia profesional. *</label>
-      </div>
-      <div class="form-field col-lg-6 ">
-         <input id="email" class="input-text js-input" type="number" pattern="[0-9]+" required formControlName="tiempoExperiencia">
-         <label class="label" for="email">Tiempo de experiencia profesional ( años). *</label>
-      </div>
-      <div class="form-field col-lg-6 ">
-         <input id="email" class="input-text js-input" type="text" required formControlName="cargo">
-         <label class="label" for="email">Cargo actual. *</label>
-      </div>
-      <div class="form-field col-lg-12">
-         <input class="submit-btn" type="submit" value="Continuar" [disabled]="basicDateForm.invalid">
-      </div>
-   </form> -->
-
-   <survey [model]="surveyModel"></survey>
+   <div class="container">
+      <h3 class="title">Datos del Experto o Juez.</h3>
+      <small class="text-body-secondary">Los atributos con * son obligatorios</small>
+      <survey [model]="surveyModel"></survey>
+   </div>
 
 </section>
